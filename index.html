@@ -37,6 +37,11 @@
     }
     </script>
 
+    <script>
+        if(window.innerWidth < 600) {
+            location.pathname = "/webplus/mobile.html";
+        }
+    </script>
 
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
@@ -404,11 +409,5 @@
             }
         }
     </style>
-
-    <script>
-        if(window.innerWidth < 600) {
-            location.pathname = "/webplus/mobile.html";
-        }
-    </script>
 </body>
 </html>
