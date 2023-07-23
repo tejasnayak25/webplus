@@ -36,6 +36,12 @@
       }
     }
     </script>
+
+    <script>
+        if(window.innerWidth > 600) {
+            location.pathname = "/webplus";
+        }
+    </script>
     
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
@@ -415,10 +421,6 @@
                 btn.classList.replace("uil-multiply", "uil-bars");
                 menu.classList.replace("flex", "hidden");
             }
-        }
-
-        if(window.innerWidth > 600) {
-            location.pathname = "/webplus";
         }
     </script>
 </body>
