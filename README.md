@@ -1,4 +1,4 @@
 ## WebPlus
 A Python Framework for Web-Development
 
-[Click Me!](https://tj-likes-coding.github.io/webplus/)
+[Click Me!](https://tejasnayak25.github.io/webplus/)
